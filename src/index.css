@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 .typewriter {
   display: inline-block;
   overflow: hidden;
@@ -26,4 +26,30 @@
     font-size: 1rem;
     line-height: 2rem;
   }
+}
+@keyframes kaydir {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(100%);
+    }
+  }
+
+/* animasyonlu metin öğesini stilize et */
+.kayan-yazi {
+    animation-name: kaydir;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-family: 'VT323', monospace;
+    width : 50%
+  }
+  body {
+  background-image: url('/body.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
