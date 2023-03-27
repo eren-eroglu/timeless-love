@@ -25,7 +25,7 @@ const Navbar = ({
     <nav className="flex items-center justify-around p-6 border-b-2 border-black lg:flex lg:justify-center"
     style={{ backgroundImage: `url(${NavbarBg})`, backgroundSize: "cover" }}>
     <div className="bg-gray-900 bg-opacity-50 flex items-center justify-center flex-shrink-0 text-pink-500 mr-6 rounded-lg">
-  <Link onClick={() => {window.location.reload()}} to="/timeless-love" className="flex">
+  <Link to="/timeless-love" className="flex">
     <img src={logo} alt="Timeless Love" className="w-10 h-10 mr-2" />
     <span className="font-bold text-white text-xl pt-2">Timeless Love</span>
   </Link>
