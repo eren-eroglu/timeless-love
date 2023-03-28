@@ -11,8 +11,8 @@ function Navbar2() {
       <div className="kayan-yazi  flex text-white ">Eren Eroglu 2023 &copy;
      </div> <div className="flex pt-1 ml-5">
         <a href="https://github.com/eren-eroglu" className="text-white mr-4"><FaGithub /></a>
-        <a href="https://twitter.com/eren_eroglu" className="text-white mr-4"><FaTwitter /></a>
-        <a href="https://www.linkedin.com/in/eren-eroglu/" className="text-white"><FaLinkedin /></a>
+        <a href="https://mobile.twitter.com/35ereneroglu" className="text-white mr-4"><FaTwitter /></a>
+        <a href="https://www.linkedin.com/in/eroglueren/" className="text-white"><FaLinkedin /></a>
       </div>
     </div>
   );
