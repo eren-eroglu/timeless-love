@@ -29,7 +29,7 @@ function App() {
           <Route
             path="/timeless-love"
             element={
-              <div className="flex bg-opacity-30 bg-gray-500 mt-5 rounded-lg shadow-lg">
+              <div className="flex bg-opacity-30 bg-gray-500 mt-5 rounded-lg shadow-2xl drop-shadow-2xl">
                 <CoupleTimer
                   firstQuestion={firstQuestion}
                   secondQuestion={secondQuestion}

@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="max-w-3xl mx-auto mt-8 bg-white bg-opacity-60 rounded-2xl p-10">
+    <div className="max-w-3xl mx-auto mt-8 bg-blue-300 shadow-2xl drop-shadow-2xl bg-opacity-50 rounded-2xl p-10">
       <h1 className="text-3xl font-bold mb-4">About Timeless Love</h1>
       <p className="text-gray-700 mb-8">
         Timeless Love is a website that helps couples calculate how long they have been together. It is a simple and easy-to-use tool that can be used to celebrate important milestones in your relationship, such as anniversaries or the day you first met.

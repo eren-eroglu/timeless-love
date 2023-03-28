@@ -42,7 +42,7 @@ function CoupleTimer({ firstQuestion, secondQuestion }) {
   };
 
   return (
-    <div className="max-w-lg mx-auto mt-5">
+    <div className="max-w-lg  mx-auto mt-5">
       {!showTimer && !showMessage && (
         <>
           <p className="text-3xl text-center mb-4 sm:mb-8 p-2">
@@ -97,39 +97,9 @@ function CoupleTimer({ firstQuestion, secondQuestion }) {
               onChange={handleStartDateChange}
               className="border-2 border-purple-600 bg-gray-900 text-purple-400 rounded-lg px-4 py-3 mb-4 sm:mb               sm:mr-2 focus:outline-none focus:ring-2 focus:ring-purple-600 "
               />
-              {startDate && (
-                <button
-                  className="bg-pink-600 text-white px-6 py-3 rounded-lg ml-4 sm:ml-0 hover:bg-pink-700"
-                  onClick={calculateTimeTogether}
-                >
-                  Calculate
-                </button>
-              )}
+          
             </div>
-            {showDate && (
-              <div className="fixed z-50 top-0 left-0 h-screen w-screen flex items-center justify-center bg-black bg-opacity-50">
-                <div className="w-2/3 md:w-1/2 lg:w-1/3 bg-white rounded-lg shadow-lg p-8">
-                  <p className="text-2xl text-center mb-6 text-purple-500 font-bold">
-                    Congratulations!
-                  </p>
-                  <p className="text-xl text-center mb-6">
-                    You have been together for{" "}
-                    <span className="text-purple-700 font-bold">
-                      {timeTogether.years} years, {timeTogether.months} months, and {timeTogether.days} days
-                    </span>
-                    !
-                  </p>
-                  <div className="flex justify-center">
-                    <button
-                      className="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded"
-                      onClick={handleClose}
-                    >
-                      Close
-                    </button>
-                  </div>
-                </div>
-              </div>
-            )}
+          
           </>
         )}
         {showResults && (
